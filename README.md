@@ -1,2 +1,6 @@
 # ANLP_Berkeley
 Emotional and Hate Speech Analysis in YouTube Comments on the 2024 U.S. Election: Harris vs. Trump Final Report
+
+This project investigates hate speech and emotions in the context of the 2024 U.S. presidential campaign. I focus on comments directed at Kamala Harris and Donald Trump, as well as the content of their campaign speech transcripts. By analyzing YouTube comments—a less-explored platform compared to X (formerly Twitter)—the project captures direct audience reactions tied to specific video content. Using a fine-tuned DistilBERT model, a custom classifier was developed to identify insulting comments against political opponents.
+
+In addition to hate speech detection, the analysis explored broader emotional dynamics within comments, such as hope, frustration, and anger, while differentiating whether emotions were directed toward the candidate or their opponent. Campaign speech transcripts were further analyzed using topic modeling and emotion detection, uncovering the interplay between speech tone, topics, and hate speech prevalence in viewer comments. This dual-layered approach provides a detailed glance at the emotional landscape and hate speech dynamics within the polarized political climate of the 2024 election.
